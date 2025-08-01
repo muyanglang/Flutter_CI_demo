@@ -15,7 +15,7 @@ jobs:
           flutter-version: '3.32.6'
           channel: 'stable'
       #想让我们CI做的事情
-      - run: cd my_flutter_module && build ios-framwork --cocoapods --out=../NativeDemo/Flutter
+      - run: cd my_flutter_module && build ios-framework --cocoapods --out=../NativeDemo/Flutter
       - run: |
          git add .
          git commit -m"update flutter framework"
